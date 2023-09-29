@@ -1,0 +1,17 @@
+.AppLink {
+    color: var(--primary-color);
+    transition: opacity 0.2s;
+    text-decoration: none;
+}
+
+.AppLink:hover {
+    opacity: 1;
+}
+
+.clear {
+    text-decoration: none;
+}
+
+.underline {
+    text-decoration: underline;
+}

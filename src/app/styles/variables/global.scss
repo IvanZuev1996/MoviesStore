@@ -1,0 +1,38 @@
+:root {
+    // fonts
+    --font-family-main: 'Montserrat', sans-serif;
+
+    // background
+    --bg-color: #141414;
+    --bg-navbar: #1f1f1f;
+    --skeleton-bg-color: #d1d1d1;
+    --input-bg-color: var(--primary-color);
+
+    // colors
+    --primary-color: rgb(255 255 255);
+    --secondary-color: rgb(227 227 227);
+    --additional-color: #f50;
+    --red-light-color: rgb(255 53 53);
+
+    // size
+    --font-size-s: 12px;
+    --font-lint-s: 18px;
+    --font-s: var(--font-size-s) / var(--font-lint-s) var(--font-family-main);
+    --font-size-m: 16px;
+    --font-lint-m: 24px;
+    --font-m: var(--font-size-m) / var(--font-lint-m) var(--font-family-main);
+    --font-size-l: 24px;
+    --font-lint-l: 32px;
+    --font-l: var(--font-size-l) / var(--font-lint-l) var(--font-family-main);
+    --font-size-xl: 32px;
+    --font-lint-xl: 40px;
+    --font-xl: var(--font-size-xl) / var(--font-lint-xl) var(--font-family-main);
+
+    // navbar
+    --navbar-height: 70px;
+    --footer-height: 100px;
+
+    // skeleton
+    --skeleton-color: rgb(99 99 99);
+    --skeleton-bg-color: rgb(52 51 51);
+}

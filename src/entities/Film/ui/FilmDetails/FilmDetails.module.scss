@@ -1,0 +1,30 @@
+.FilmDetails {
+    display: flex;
+}
+
+.filmName {
+    font-weight: bold;
+}
+
+.infoWrapper {
+    margin-left: 25px;
+    width: 50vw;
+}
+
+.infoHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.image {
+    width: 270px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.summary {
+    white-space: pre-wrap;
+}

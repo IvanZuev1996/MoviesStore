@@ -1,0 +1,25 @@
+.text_right {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 100px;
+}
+
+.FilmList {
+    margin-top: 20px;
+}
+
+.text_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 25px 70px;
+}
+
+.noFilms {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

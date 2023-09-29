@@ -1,0 +1,38 @@
+.AboutPage {
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.infoWrapper {
+    width: 100%;
+    margin-left: 40px;
+}
+
+.mainTitle {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.Wrapper {
+    display: flex;
+}
+
+.my-node-enter {
+    opacity: 0;
+}
+
+.my-node-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+
+.my-node-exit {
+    opacity: 1;
+}
+
+.my-node-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}

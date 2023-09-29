@@ -1,0 +1,6 @@
+.Page {
+    min-height: calc(100vh - var(--navbar-height) - var(--footer-height));
+    display: flex;
+    flex-direction: column;
+    padding: 10px 70px;
+}

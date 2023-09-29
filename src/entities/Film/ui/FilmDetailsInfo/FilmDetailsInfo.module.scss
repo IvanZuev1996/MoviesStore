@@ -1,0 +1,15 @@
+.FilmDetailsInfo {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.infoKey {
+    flex: 1;
+    font-weight: bold;
+}
+
+.infoValue {
+    margin-top: 5px;
+    flex: 4;
+}

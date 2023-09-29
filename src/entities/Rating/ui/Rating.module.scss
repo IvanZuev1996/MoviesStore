@@ -1,0 +1,15 @@
+.Rating {
+    display: flex;
+    align-items: center;
+
+    .starIcon {
+        width: 35px;
+        height: 35px;
+        fill: var(--additional-color);
+    }
+
+    .raitingText {
+        font-weight: bold;
+        margin-left: 10px;
+    }
+}

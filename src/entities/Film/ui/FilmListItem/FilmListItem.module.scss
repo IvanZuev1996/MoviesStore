@@ -1,0 +1,56 @@
+.FilmListItem {
+    display: flex;
+    margin-right: 25px;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.FilmListItem:hover {
+    transform: scale(1.03);
+}
+
+.image {
+    width: 180px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.filmName {
+    font-weight: 700;
+}
+
+.text_right {
+    display: flex;
+    align-items: flex-start;
+    width: 340px;
+
+    .textWrapper {
+        width: 100%;
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+
+    .filmName {
+        margin-bottom: 15px;
+    }
+
+    .imageSkeleton {
+        padding-left: 163px;
+    }
+}
+
+.text_bottom {
+    flex-direction: column;
+    width: 180px;
+
+    .filmName {
+        margin-bottom: 10px;
+    }
+
+    .textWrapper {
+        margin-top: 14px;
+        margin-left: 6px;
+    }
+}

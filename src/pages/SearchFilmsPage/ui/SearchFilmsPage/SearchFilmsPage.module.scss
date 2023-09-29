@@ -1,0 +1,27 @@
+.SearchFilmsPage {
+    min-height: calc(100vh - var(--navbar-height));
+}
+
+.NoSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.filmsList {
+    margin-bottom: 40px;
+}
+
+.noFilms {
+    font-weight: bold;
+}
+
+.notFoundFilmWrapper {
+    display: flex;
+    gap: 0 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}

@@ -1,0 +1,13 @@
+.Input {
+    padding: 12px 20px;
+    color: var(--primary-color);
+    background-color: var(--bg-navbar);
+    border: 1px solid #ccc;
+    transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.Input:focus {
+    border: 1px solid var(--primary-color);
+}
